@@ -10,7 +10,7 @@ namespace SeleniumTechSession
 {
     public class Setup : IDisposable
     {
-        private IWebDriver driver { get; set; }
+        public IWebDriver driver { get; set; }
 
         public Setup()
         {

@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Env\EnvSettings.cs" />
+    <Compile Include="PageFactory\Login.cs" />
     <Compile Include="PageFactory\PageFactory.cs" />
     <Compile Include="PageModel\Login.cs" />
     <Compile Include="PageModel\PageModel.cs" />

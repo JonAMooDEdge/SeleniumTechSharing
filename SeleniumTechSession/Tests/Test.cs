@@ -9,11 +9,11 @@ namespace SeleniumTechSession.Tests
 {
     public abstract class Test
     {
-        private IWebDriver driver { get; set; }
+        public IWebDriver driver { get; set; }
 
-        private PageModel.Login login { get; set; }
+        public PageModel.Login login { get; set; }
 
-        internal Test(Setup setup)
+        public Test(Setup setup)
         {
             driver = setup.GetDriver();
 

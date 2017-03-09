@@ -15,6 +15,7 @@ namespace SeleniumTechSession.PageFactory
         public PageFactory(IWebDriver driver)
         {
             _driver = driver;
+
             OpenQA.Selenium.Support.PageObjects.PageFactory.InitElements(this, new RetryingElementLocator(_driver));
         }
     }
